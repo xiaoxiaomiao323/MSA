@@ -1,0 +1,17 @@
+matplotlib==3.4.3
+numpy==1.17.3
+scipy==1.5.2
+librosa==0.8.1
+tensorboard
+soundfile
+amfm_decompy
+matplotlib
+transformers
+ffmpeg
+tqdm
+pandas
+kaldiio
+kaldi_io
+numba==0.53
+speechbrain==0.5.12
+fairseq==0.12.2

@@ -1,0 +1,58 @@
+File: TODO
+----------
+
+High Priority:
+[ ] fix utf_filt tests
+[ ] fix mdeval tests
+[x] fix empty inputs
+[-] STM Validators (need tests)
+[-] RTTM Validators (need tests)
+[x] CTM Validators
+[x] cumulative overlap table in HTML reports
+[-] update docs
+    [ ] acomp
+    [x] align2html
+    [x] asclite
+    [ ] chfilt
+    [ ] csrfilt
+    [x] ctmValidator
+    [ ] def_art
+    [ ] hamzaNorm
+    [ ] hubscr
+    [ ] md-eval
+    [x] mergectm2rttm
+    [ ] rfilter1
+    [ ] rover
+    [ ] rttmSmooth
+    [ ] rttmSort
+    [ ] rttmValidator
+    [ ] sc_stats
+    [ ] sclite
+    [ ] spkr2sad
+    [ ] stm2rttm
+    [ ] stmValidator
+    [ ] tanweenFilt
+    [ ] utf_filt
+[ ] Re-implement MAPPSWE segmentation to take into account overlapping speech
+
+Medium Priority:
+[x] use UEMs in asclite
+    [x] empty channel (ihm)
+    [x] prefilter
+    [x] inter segment gaps
+[x] time-based alignments
+[ ] alignment visualization program
+[ ] add SASTT cookbook to docs
+[ ] multi-threads
+
+Low Priority:
+[x] additive cost based on word aligment distances
+[ ] rover implementation and experiments
+    [ ] Alignment testing
+        [ ] align the 4 systems in /slp/raid2/ROVER2/AlignmentWord/data
+            [ ] word alignment
+            [ ] time mediated alignment
+        [ ] generate a similar alignment file to /slp/raid2/ROVER2/AlignmentWord/data/MF.putative.train
+        [ ] consult with Jon to verify output
+    [ ] Re-activate mfalign.
+        [ ] Run voting experiment comparing old alignment to new alignments
