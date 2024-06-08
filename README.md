@@ -1,6 +1,6 @@
 # MSA
 
-`git clone https://github.com/nii-yamagishilab/SSL-SAS.git`
+`git clone https://github.com/xiaoxiaomiao323/MSA.git`
 
 `cd MSA`
 
