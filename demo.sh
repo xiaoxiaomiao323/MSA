@@ -66,4 +66,9 @@ if [ ${stage} -le 7 ] && [ ${stop_stage} -ge 7  ]; then
         echo "[7] caculate DER for $type speech "
         bash sd/predict_rttm.sh exp/output_speech/predict_rttm/demo_$type data/rttms exp/predict_rttm_anon_$type
     done
+     for type in ori anon_{res,select,ds,as};do
+        echo "DER for $type speech "
+        cat exp/predict_rttm_$type/der
+    done
+    
 fi
