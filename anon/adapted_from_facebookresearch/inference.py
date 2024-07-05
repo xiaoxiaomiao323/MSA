@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 
-# This source code was adapted from https://github.com/facebookresearch/speech-resynthesis by Xiaoxiao Miao (NII, Japan).
+# This source code was adapted from https://github.com/facebookresearch/speech-resynthesis by Xiaoxiao Miao (SIT, Singapore).
 
 import argparse
 import glob
