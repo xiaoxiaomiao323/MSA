@@ -20,8 +20,7 @@ Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 `bash demo.sh`
 
 ## Demo Results
-We randomly selected 3 conversations with 3,4,5 speakers respectively. 
-
+Three randomly selected conversations with 3, 4, and 5 speakers respectively are anonymized using different MSAs.
 |                  | DER  | FA  | MS  | SC  |
 |------------------|------|-----|-----|-----|
 | Original         | 5.54 | 0.00| 0.00| 5.54|
