@@ -29,6 +29,15 @@ Three randomly selected conversations with 3, 4, and 5 speakers respectively are
 | $A_{ds}$     | 6.49 | 0.43| 0.00| 6.06|
 | $A_{as}$    | 6.06 | 0.00| 0.00| 6.06|
 
+The results of $A_{selec}$, $A_{ds}$, and $A_{as}$ are similar using only three conversations. If you try more samples with more speakers, $A_{as}$ will show better DERs at a statistical level.
+
+## Instructions for aonymization for your own conversations
+
+* Put your data under "data/wavs"
+* [Optional] If you have real RTTMs, put it under "data/rttms" (only needed if you want to compute DERs)
+* bash demo.sh 
+
+
 ## Acknowledgments
 This study is partially supported by JST, PRESTO Grant Number JPMJPR23P9, Japan and SIT-ICT Academic Discretionary Fund.
 
