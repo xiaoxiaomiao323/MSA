@@ -70,5 +70,5 @@ if [ ${stage} -le 7 ] && [ ${stop_stage} -ge 7  ]; then
         echo "DER for $type speech "
         cat exp/predict_rttm_$type/der
     done
-    
+    echo "Generated audio samples are saved under exp folder."
 fi
