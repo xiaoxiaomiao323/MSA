@@ -26,7 +26,7 @@ We randomly selected 3 conversations with 3,4,5 speakers respectively.
 |------------------|------|-----|-----|-----|
 | Original         | 5.54 | 0.00| 0.00| 5.54|
 | Resynthesized    | 7.28 | 0.20| 0.17| 6.91|
-|  $A_{select}$  | 6.05 | 0.00| 0.00| 6.05|
+|  $A_{selec}$  | 6.05 | 0.00| 0.00| 6.05|
 | $A_{ds}$     | 6.49 | 0.43| 0.00| 6.06|
 | $A_{as}$    | 6.06 | 0.00| 0.00| 6.06|
 
