@@ -19,6 +19,17 @@ Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 
 `bash demo.sh`
 
+## Demo Results
+We randomly selected 3 conversations with 3,4,5 speakers respectively. 
+
+|                  | DER  | FA  | MS  | SC  |
+|------------------|------|-----|-----|-----|
+| Original         | 5.54 | 0.00| 0.00| 5.54|
+| Resynthesized    | 7.28 | 0.20| 0.17| 6.91|
+| $A_{select}$  | 6.05 | 0.00| 0.00| 6.05|
+| $A_{ds}$     | 6.49 | 0.43| 0.00| 6.06|
+| $A_{as}$    | 6.06 | 0.00| 0.00| 6.06|
+
 ## Acknowledgments
 This study is partially supported by JST, PRESTO Grant Number JPMJPR23P9, Japan and SIT-ICT Academic Discretionary Fund.
 
