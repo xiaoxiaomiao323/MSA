@@ -7,7 +7,7 @@ This is an implementation of the paper - A Benchmark for Multi-speaker Anonymiza
 The authors are Xiaoxiao Miao, Ruijie Tao, Chang Zeng, Xin Wang.
 
 
-Audio samples can be found here:
+Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 
 ## Dependencies
 
@@ -18,7 +18,6 @@ Audio samples can be found here:
 `bash install.sh`
 
 `bash demo.sh`
- 
 
 ## Acknowledgments
 This study is partially supported by JST, PRESTO Grant Number JPMJPR23P9, Japan and SIT-ICT Academic Discretionary Fund.
