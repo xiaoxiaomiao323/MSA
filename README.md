@@ -9,7 +9,8 @@ The authors are Xiaoxiao Miao, Ruijie Tao, Chang Zeng, Xin Wang.
 
 Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 
-![](msa.png)
+<img src="msa.png" alt="Image" width="600"/>
+
 
 ## Dependencies
 
