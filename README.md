@@ -2,7 +2,7 @@
 
 ## A Benchmark for Multi-speaker Anonymization 
 
-This is an implementation of the paper - A Benchmark for Multi-speaker Anonymization
+This is an implementation of the paper - [A Benchmark for Multi-speaker Anonymization](http://arxiv.org/abs/2407.05608)
 
 The authors are Xiaoxiao Miao, Ruijie Tao, Chang Zeng, Xin Wang.
 
