@@ -7,7 +7,6 @@
 
 
 source ./env.sh
-
 config=anon/configs/extract_ecapa_f_ecapa_vox.yaml
 echo ${config}
 ## extract libritts_train_other_500
@@ -33,8 +32,10 @@ if [[ ${xv_flag} == "extract" ]]; then
 fi
 
 
-echo extract original vector for demo 
-dset=demo
-python anon/selec_anon/compute_ori_spk_vector/extract_emb.py ${config} exp/predict_rttm_ori/wav.scp $outdir/$dset fbank
-ln -sr exp/predict_rttm_ori anon/data/$dset
+echo extract original vector for $1
+dset=$1
+
+python anon/selec_anon/compute_ori_spk_vector/extract_emb.py ${config} exp/$1/predict_rttm_ori/wav.scp $outdir/$dset fbank
+mkdir -p anon/data/$dset
+ln -sr exp/$dset/predict_rttm_ori/* anon/data/$dset/
 

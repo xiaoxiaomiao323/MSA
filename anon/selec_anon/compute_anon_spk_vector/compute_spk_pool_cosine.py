@@ -28,7 +28,7 @@ print("Read ", c, "pool xvectors")
 
 with ReadHelper('scp:'+src_xvec_file) as reader:
     for sspk, sxvec in reader:
-        print("Computing cosine measure for " + sspk)
+        #print("Computing cosine measure for " + sspk)
         with open(join(scores_dir, 'affinity_'+sspk), 'w') as sf:
             for pspk, pxvec in pool_xvectors.items():
                 # compute cosine distance between src and pool spk

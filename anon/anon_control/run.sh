@@ -18,13 +18,16 @@ python anon/anon_control/ceter_avg.py $pool/spk_xvector.scp ${pool_gender} ${poo
 
 
 
-dset=demo
+dset=$1
 for type in as ds; do
-    echo using $type loss to search anonymized speaker vector for demo 
+    echo using $type loss to search anonymized speaker vector for $1
+    start_time=$(date +%s)
     outdir=anon/anon_control/exp/$type/
     python anon/anon_control/$type.py ${pool_m} ${pool_f} \
         $xvdir/${dset}/xvector.scp \
         $datadir/${dset}/spk2gender \
 	anon/anon_control/exp/$type/${dset}
+    end_time=$(date +%s)
+    echo "$type of $1 completed in $((end_time - start_time)) seconds."
 done
 

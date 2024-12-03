@@ -5,11 +5,11 @@
 # All rights reserved.
 # ==============================================================================
 
-
+dset=$1
 UTTDIR=anon/data
 SRCDIR=$PWD/anon/selec_anon/output_ori_spk_vector/
 POOL_XVEC_DIR=libritts_train_other_500
-SCOREDIR=$PWD/anon/selec_anon/output_anon_spk_vector
+SCOREDIR=$PWD/anon/selec_anon/output_anon_spk_vector/
 mkdir -p ${SCOREDIR}
 
 SPKXVECNAME=spk_xvector

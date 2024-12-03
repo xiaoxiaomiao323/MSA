@@ -1,0 +1,37 @@
+# DER(%) ↓ on Original, Resynthesized, and Anonymized Clean Segments on Simulated Conversations Using the Predict RTTM
+
+| Spk Count | Clean Original | Clean Resyn  Clean $A_{Select}$ | Clean $A_{DS}$ | Clean $A_{AS}$ 
+|-----------|----------------|-------------|--------------------|----------------|----------------|
+| 2-spk     | 4.23           | 5.54        | 6.60               | 5.38           | 6.16           | 
+| 3-spk     | 10.43          | 11.12       | 13.14              | 11.57          | 11.81          | 
+| 4-spk     | 13.14          | 14.58       | 16.48              | 14.79          | 14.57          |
+| 5-spk     | 15.60          | 16.67       | 19.98              | 17.78          | 17.12          | 
+
+
+
+# DER(%) ↓ on Original, Resynthesized, and Anonymized Noise Segments on Simulated Conversations Using the Predict RTTM
+
+| Spk Count | Clean Original | Clean Resyn  Clean $A_{Select}$ | Clean $A_{DS}$ | Clean $A_{AS}$ 
+|-----------|----------------|-------------|--------------------|----------------|----------------|
+| 2-spk     | 5.26           | 6.64        | 8.66               | 7.58           | 7.11           | 
+| 3-spk     | 10.64          | 12.19       | 13.81              | 12.35          | 12.45          | 
+| 4-spk     | 14.67          | 15.86       | 18.18              | 16.07          | 15.89          |
+| 5-spk     | 16.75          | 18.14       | 21.55              | 18.41          | 17.82          | 
+
+
+### Time Summary - clean simulation datasets using A5000
+|#spk    |#utt      | AS       | DS       | Generation |
+|--------|----------|----------|----------|------------|
+| 2-spk  | 1139     | 3.82 min | 4.92  min| 72.52 min  |
+| 3-spk  | 825      | 20.05 min| 25.75 min| 80.68 min  |
+| 4-spk  | 621      | 37.05 min| 45.92 min| 74.92 min  |
+| 5-spk  | 496      | 64.27 min| 90.87 min| 93.88 min  |
+
+### Time Summary - noise simulation datasets using A5000
+|#spk    |#utt      | AS       | DS       | Generation |
+|--------|----------|----------|----------|------------|
+| 2-spk  | 1139     | 4.45 min | 6.00 min | 71.15 min  |
+| 3-spk  | 825      | 15.42 min| 20.63 min| 78.73 min  |
+| 4-spk  | 621      | 28.00 min| 35.95 min| 74.05 min  |
+| 5-spk  | 496      | 51.13 min| 60.93 min| 105.62 min |
+

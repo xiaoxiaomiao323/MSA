@@ -48,8 +48,8 @@ def main(spk2utt_file, xvec_file, output_dir, output_name):
         if len(spk_data_buf) < 1:
             print("Cannot find data for {:s}".format(spk))
             exit(1)
-        else:
-            print("{:s} has {:d} data vectors".format(spk, len(spk_data_buf)))
+       # else:
+       #     print("{:s} has {:d} data vectors".format(spk, len(spk_data_buf)))
     
         # get average
         ave_data = average_vectors(spk_data_buf)

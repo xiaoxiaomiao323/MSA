@@ -122,7 +122,7 @@ if __name__ == "__main__":
             wav, wav_lens = wav.to(params["device"]), wav_lens.to(params["device"])
             wav = wav.float()
             if feat_type == 'fbank':
-                print("Extract ori emb for %s"%wav_name)
+                #print("Extract ori emb for %s"%wav_name)
                 emb = compute_embedding(wav,wav_lens)
                 #print(emb)
             elif feat_type == 'ssl':

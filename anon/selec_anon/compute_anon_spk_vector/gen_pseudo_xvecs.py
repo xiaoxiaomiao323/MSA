@@ -154,7 +154,7 @@ def main(args):
     
     for spk, gender in src_spk2gender.items():
         gender = gender.upper()
-        print(spk,gender)
+        #print(spk,gender)
         
         # get the top_K
         top_spk, gender = get_top_K(spk, affinity_scores_dir, gender,
