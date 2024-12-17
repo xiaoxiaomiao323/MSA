@@ -12,7 +12,7 @@ Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 <img src="msa.png" alt="Image" width="500"/>
 
 
-## Dependencies
+## How to run
 
 `git clone https://github.com/xiaoxiaomiao323/MSA.git`
 
@@ -22,6 +22,7 @@ Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 
 `bash demo.sh`
 
+This script will automatically download the silmulated conversation and do resynthesis, select, AS, DS anonymization and calculate DER for each case.
 
 ## Instructions for aonymization for your own conversations
 
