@@ -22,17 +22,6 @@ Audio samples can be found here: https://xiaoxiaomiao323.github.io/msa-audio/
 
 `bash demo.sh`
 
-## Demo Results
-Three randomly selected conversations with 3, 4, and 5 speakers respectively are anonymized using different MSAs.
-|                  | DER  | FA  | MS  | SC  |
-|------------------|------|-----|-----|-----|
-| Original         | 5.54 | 0.00| 0.00| 5.54|
-| Resynthesized    | 7.28 | 0.20| 0.17| 6.91|
-|  $A_{selec}$  | 6.05 | 0.00| 0.00| 6.05|
-| $A_{ds}$     | 6.49 | 0.43| 0.00| 6.06|
-| $A_{as}$    | 6.06 | 0.00| 0.00| 6.06|
-
-The results of $A_{selec}$, $A_{ds}$, and $A_{as}$ are similar using only three conversations. If you try more samples with more speakers, $A_{as}$ will show better DERs at a statistical level.
 
 ## Instructions for aonymization for your own conversations
 
@@ -42,8 +31,7 @@ The results of $A_{selec}$, $A_{ds}$, and $A_{as}$ are similar using only three 
 
 
 ## Acknowledgments
-This study is partially supported by JST, PRESTO Grant Number JPMJPR23P9, Japan and SIT-ICT Academic Discretionary Fund.
-
+This study is partially supported by JST, PRESTO Grant Number JPMJPR23P9, Japan, SIT-ICT Academic Discretionary Fund, and Ministry of Education, Singapore, under its Academic Research Tier 1 (R-R13-A405-0005) and its SIT's Ignition grant (STEM) (R-IE3-A405-0005)
 ## License
 
 The `anon/adapted_from_facebookreaserch` subfolder has [Attribution-NonCommercial 4.0 International License](https://github.com/xiaoxiaomiao323/MSA/blob/main/anon/adapted_from_facebookresearch/LICENSE). The `anon/adapted_from_speechbrain` subfolder has [Apache License](https://github.com/xiaoxiaomiao323/MSA/blob/main/anon/adapted_from_speechbrain/LICENSE). They were created by the [facebookreasearch](https://github.com/facebookresearch/speech-resynthesis/blob/main) and [speechbrain](https://github.com/speechbrain/speechbrain) orgnization, respectively. The `anon/scripts` and `anon
