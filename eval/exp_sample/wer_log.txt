@@ -1,0 +1,5 @@
+/app/vpc/feb-15/vpc2026-dev/venv/lib/python3.11/site-packages/speechbrain/utils/torch_audio_backend.py:57: UserWarning: torchaudio._backend.list_audio_backends has been deprecated. This deprecation is part of a large refactoring effort to transition TorchAudio into a maintenance phase. The decoding and encoding capabilities of PyTorch for both audio and video are being consolidated into TorchCodec. Please see https://github.com/pytorch/audio/issues/3902 for more information. It will be removed from the 2.9 release. 
+  available_backends = torchaudio.list_audio_backends()
+%WER 0.97 [ 1 / 103, 0 ins, 0 del, 1 sub ]
+%SER 20.00 [ 1 / 5 ]
+Scored 5 sentences, 0 not present in hyp.
