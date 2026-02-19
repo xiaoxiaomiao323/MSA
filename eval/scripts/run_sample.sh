@@ -86,6 +86,11 @@ if python -c "import fairseq" 2>/dev/null; then
       mkdir -p fairseq
       wget -q https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_small.pt -P fairseq/ || true
     fi
+    if [[ ! -f pretrained/ckpt_w2vsmall ]]; then
+      echo "MOS: downloading ckpt_w2vsmall..."
+      mkdir -p pretrained
+      wget -q -L "https://github.com/xiaoxiaomiao323/MSA/releases/download/new-main/ckpt_w2vsmall" -O pretrained/ckpt_w2vsmall 2>/dev/null || true
+    fi
     if [[ -f fairseq/wav2vec_small.pt ]] && [[ -f pretrained/ckpt_w2vsmall ]]; then
       if python predict.py --fairseq_base_model fairseq/wav2vec_small.pt \
         --finetuned_checkpoint pretrained/ckpt_w2vsmall \
